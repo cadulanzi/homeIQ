@@ -40,13 +40,14 @@
     <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-xl font-bold text-gray-800">🧠 HomeIQ</a>
-            <div class="hidden md:flex space-x-8">
-                <a href="#problema" class="nav-link text-gray-600 hover:text-blue-600 transition">O Problema</a>
-                <a href="#solucao" class="nav-link text-gray-600 hover:text-blue-600 transition">A Solução</a>
-                <a href="#tecnologia" class="nav-link text-gray-600 hover:text-blue-600 transition">Tecnologia</a>
-                <a href="#modelo" class="nav-link text-gray-600 hover:text-blue-600 transition">Modelo</a>
-                <a href="#roadmap" class="nav-link text-gray-600 hover:text-blue-600 transition">Roadmap</a>
-                <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">O Pedido</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#problema" class="nav-link text-gray-600 hover:text-blue-600 transition">Contexto</a>
+                <a href="#solucao" class="nav-link text-gray-600 hover:text-blue-600 transition">MVP</a>
+                <a href="#tecnologia" class="nav-link text-gray-600 hover:text-blue-600 transition">Requisitos</a>
+                <a href="#modelo" class="nav-link text-gray-600 hover:text-blue-600 transition">Benefícios</a>
+                <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">Métricas</a>
+                <a href="#ods" class="nav-link text-gray-600 hover:text-blue-600 transition">ODS</a>
+                <a href="#call-to-action" class="nav-link text-gray-600 hover:text-blue-600 transition">Próximos Passos</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400">
                 <div class="w-6 h-0.5 bg-gray-600 mb-1.5"></div>
@@ -54,12 +55,13 @@
             </button>
         </nav>
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col space-y-4">
-             <a href="#problema" class="nav-link text-gray-600 hover:text-blue-600 transition">O Problema</a>
-             <a href="#solucao" class="nav-link text-gray-600 hover:text-blue-600 transition">A Solução</a>
-             <a href="#tecnologia" class="nav-link text-gray-600 hover:text-blue-600 transition">Tecnologia</a>
-             <a href="#modelo" class="nav-link text-gray-600 hover:text-blue-600 transition">Modelo</a>
-             <a href="#roadmap" class="nav-link text-gray-600 hover:text-blue-600 transition">Roadmap</a>
-             <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">O Pedido</a>
+             <a href="#problema" class="nav-link text-gray-600 hover:text-blue-600 transition">Contexto</a>
+             <a href="#solucao" class="nav-link text-gray-600 hover:text-blue-600 transition">MVP</a>
+             <a href="#tecnologia" class="nav-link text-gray-600 hover:text-blue-600 transition">Requisitos</a>
+             <a href="#modelo" class="nav-link text-gray-600 hover:text-blue-600 transition">Benefícios</a>
+             <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">Métricas</a>
+             <a href="#ods" class="nav-link text-gray-600 hover:text-blue-600 transition">ODS</a>
+             <a href="#call-to-action" class="nav-link text-gray-600 hover:text-blue-600 transition">Próximos Passos</a>
         </div>
     </header>
 
@@ -76,72 +78,113 @@
             </div>
         </section>
 
-        <!-- Slide 2: Problema -->
+        <!-- Slide 2: Contexto do Problema (Visão da Construtora) -->
         <section id="problema" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">O Problema: Acidentes Silenciosos, Prejuízos Reais</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O Brasil e o mundo enfrentam riscos crescentes de acidentes e perdas em residências, causados por falhas de infraestrutura e falta de monitoramento.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">Contexto do Problema: Visão da Construtora</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Pós-obra e uso real geram desafios operacionais que impactam diretamente a satisfação do cliente e a reputação da construtora.</p>
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
                         <span class="text-4xl text-blue-600">⚡️</span>
-                        <h3 class="text-xl font-bold mt-4">Acidentes Elétricos</h3>
-                        <p class="mt-2 text-gray-600"><strong>2.373</strong> acidentes em 2024, com <strong>759 mortes</strong>, um aumento de <strong>+11,6%</strong> em relação a 2023.
-                        </p>
+                        <h3 class="text-xl font-bold mt-4">Chamados Elétricos</h3>
+                        <p class="mt-2 text-gray-600">Disjuntores, sobrecargas e mau uso de equipamentos geram <strong>retrabalho constante</strong> e insatisfação do morador.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
                         <span class="text-4xl text-blue-600">💧</span>
-                        <h3 class="text-xl font-bold mt-4">Vazamentos de Água</h3>
-                        <p class="mt-2 text-gray-600">Principal causa de sinistros e danos estruturais em seguros residenciais.</p>
+                        <h3 class="text-xl font-bold mt-4">Vazamentos e Falhas</h3>
+                        <p class="mt-2 text-gray-600">Causas relevantes de <strong>reclamações</strong> e custos não planejados de manutenção pós-entrega.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-                        <span class="text-4xl text-blue-600">🔥</span>
-                        <h3 class="text-xl font-bold mt-4">Vazamentos de Gás</h3>
-                        <p class="mt-2 text-gray-600">Perigo silencioso que causa explosões e intoxicações.</p>
+                        <span class="text-4xl text-blue-600">�</span>
+                        <h3 class="text-xl font-bold mt-4">Falta de Dados</h3>
+                        <p class="mt-2 text-gray-600">Ausência de <strong>dados objetivos</strong> para orientar manutenção, operação e educação do usuário.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-                        <span class="text-4xl text-blue-600">📈</span>
-                        <h3 class="text-xl font-bold mt-4">Desperdício</h3>
-                        <p class="mt-2 text-gray-600">Perdas de <strong>14,1%</strong> na distribuição de energia (ANEEL 2023) e alto desperdício de água.</p>
+                        <span class="text-4xl text-blue-600">🏆</span>
+                        <h3 class="text-xl font-bold mt-4">Diferencial Competitivo</h3>
+                        <p class="mt-2 text-gray-600">O mercado exige <strong>diferenciais de segurança e eficiência</strong> já no decorado/showroom.</p>
                     </div>
+                </div>
+                <div class="mt-12 bg-blue-50 p-6 rounded-lg text-center">
+                    <p class="text-lg font-semibold text-blue-800">💡 O showroom pode virar um <strong>laboratório vivo</strong> que prova o padrão de qualidade da obra.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 3: Oportunidade de Mercado -->
+        <!-- Slide 3: O que é o HomeIQ -->
         <section id="oportunidade" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">A Oportunidade: Um Mercado em Crescimento Exponencial</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O mercado global de casas inteligentes está em plena expansão, criando a demanda por soluções como o HomeIQ.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">O que é o HomeIQ</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Gateway central que monitora infraestrutura residencial crítica: <strong>energia e água</strong> no MVP, com expansão planejada.</p>
                 </div>
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                         <div class="chart-container">
-                            <canvas id="marketChart"></canvas>
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-inner">
+                        <div class="grid gap-6">
+                            <div class="flex items-start">
+                                <span class="text-3xl mr-4">🖥️</span>
+                                <div>
+                                    <h4 class="font-bold text-lg">Gateway Central</h4>
+                                    <p class="text-gray-600">Monitora infraestrutura crítica: <strong>energia e água</strong> integrados no MVP.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="text-3xl mr-4">⚙️</span>
+                                <div>
+                                    <h4 class="font-bold text-lg">Autonomia Local</h4>
+                                    <p class="text-gray-600">Atua <strong>localmente</strong> (regras/alertas) e envia dados por <strong>MQTT</strong> para dashboard.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="text-3xl mr-4">📈</span>
+                                <div>
+                                    <h4 class="font-bold text-lg">Expansível</h4>
+                                    <p class="text-gray-600">Água, gás, qualidade do ar, automação (roadmap).</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="space-y-6">
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">🌐</span>
-                            <div>
-                                <h4 class="font-bold text-lg">Mercado Global Smart Home</h4>
-                                <p class="text-gray-600"><strong>US$ 101 bi</strong> (2023) → <strong>US$ 633 bi</strong> (2032), com um CAGR de <strong>22,9%</strong>.</p>
+                        <div class="bg-blue-50 p-6 rounded-lg">
+                            <h3 class="text-xl font-bold mb-4 text-blue-800">Para este piloto:</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <span class="text-3xl mr-4">⚡️</span>
+                                    <div>
+                                        <h4 class="font-bold text-lg">Energia Completa</h4>
+                                        <p class="text-gray-600"><strong>Submedição por circuito</strong> + alertas de sobrecarga.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-3xl mr-4">💧</span>
+                                    <div>
+                                        <h4 class="font-bold text-lg">Proteção Hídrica</h4>
+                                        <p class="text-gray-600"><strong>Pressão + vazão</strong> com corte automático.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">🇧🇷</span>
-                            <div>
-                                <h4 class="font-bold text-lg">Mercado Latino Americano</h4>
-                                <p class="text-gray-600">Crescimento de <strong>~20%</strong> ao ano em casas inteligentes até 2030.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">🏡</span>
-                            <div>
-                                <h4 class="font-bold text-lg">Mercado Brasileiro</h4>
-                                <p class="text-gray-600"><strong>5 milhões</strong> de novas residências e condomínios em 5 anos, um mercado-alvo natural para o HomeIQ.</p>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <h4 class="font-bold text-lg mb-3">Medições Incluídas:</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h5 class="font-semibold text-blue-600 mb-2">⚡️ Energia:</h5>
+                                    <ul class="space-y-1 text-gray-600 text-sm">
+                                        <li>• Tensão, corrente, potência</li>
+                                        <li>• Fator de potência, kWh</li>
+                                        <li>• Análise por circuito</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h5 class="font-semibold text-blue-600 mb-2">💧 Água:</h5>
+                                    <ul class="space-y-1 text-gray-600 text-sm">
+                                        <li>• Pressão (bar) em tempo real</li>
+                                        <li>• Vazão (L/min) por ponto</li>
+                                        <li>• Detecção de vazamentos</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -149,215 +192,709 @@
             </div>
         </section>
 
-        <!-- Slide 4: Solução -->
+        <!-- Slide 4: MVP Fase 1 - O que já está pronto -->
         <section id="solucao" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">A Solução: HomeIQ</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Um gateway central que age como o cérebro da casa, monitorando tudo em tempo real e agindo para prevenir desastres.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">MVP Fase 1 — O que já está pronto</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Sistema integrado de <strong>energia + água</strong> funcional e testado, pronto para implementação no showroom.</p>
                 </div>
                 <div class="bg-gray-50 p-8 rounded-lg shadow-inner">
-                    <div class="grid md:grid-cols-3 gap-8 text-center">
-                        <div class="flex flex-col items-center">
-                            <div class="text-5xl mb-4">🖥️</div>
-                            <h4 class="font-bold text-lg">Monitoramento Integrado</h4>
-                            <p class="text-gray-600">Um único gateway para monitorar água, energia, gás e qualidade do ar.</p>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="text-5xl mb-4">⚡️</div>
+                            <h4 class="font-bold text-lg">Energia Completa</h4>
+                            <p class="text-gray-600 text-sm">Submedição por circuito: tensão, corrente, potência, kWh.</p>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <div class="text-5xl font-bold text-blue-600">⚙️</div>
-                            <h4 class="font-bold text-lg">Autonomia Fail-safe</h4>
-                             <p class="text-gray-600">Atua localmente para prevenir acidentes, mesmo sem conexão com a internet.</p>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="text-4xl mb-3">💧</div>
+                            <h4 class="font-bold text-lg">Monitoramento Hídrico</h4>
+                            <p class="text-gray-600 text-sm">Pressão, vazão e detecção de vazamentos em tempo real.</p>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <div class="text-5xl mb-4">📲</div>
-                            <h4 class="font-bold text-lg">Evolui para Automação</h4>
-                             <p class="text-gray-600">Além da segurança, o HomeIQ se expande para controlar a automação residencial completa.</p>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="text-4xl font-bold text-blue-600 mb-3">🖥️</div>
+                            <h4 class="font-bold text-lg">Gateway Integrado</h4>
+                            <p class="text-gray-600 text-sm">ESP32-S3 + expansões para múltiplos sensores via MQTT.</p>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="text-5xl mb-4">�</div>
+                            <h4 class="font-bold text-lg">Dashboard Unificado</h4>
+                            <p class="text-gray-600 text-sm">Painéis integrados energia + água com alertas automáticos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="mt-12 grid md:grid-cols-2 gap-8 items-center">
                      <div>
-                        <h3 class="text-2xl font-bold mb-4">Interface Intuitiva com Digital Twin</h3>
-                        <p class="text-gray-600 mb-4">Nossa interface transforma a residência em um "gêmeo digital" interativo, tornando o monitoramento visual e intuitivo.</p>
+                        <h3 class="text-2xl font-bold mb-4">Recursos Técnicos Implementados</h3>
                         <ul class="space-y-3">
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Visualização em planta 2D/3D.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Relatórios de consumo detalhados.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Controle de automação integrado.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span><strong>Regras locais integradas:</strong> alertas elétricos + corte automático de água</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span><strong>Detecção inteligente:</strong> sobrecorrente, vazamentos e pressão anômala</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span><strong>Arquitetura unificada:</strong> Mosquitto → Ingestor → TimescaleDB para ambos vetores</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span><strong>Fail-safe duplo:</strong> operação autônoma mesmo sem internet</span></li>
                         </ul>
                     </div>
                     <div class="flex justify-center">
-                         <img src="images/twin-digital.jpg" alt="Mockup do aplicativo" class="rounded-lg shadow-lg">
+                         <img src="images/twin-digital.jpg" alt="Dashboard do sistema HomeIQ" class="rounded-lg shadow-lg">
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 5: ODS e Impacto -->
+        <!-- Slide 5: MVP Fase 1 - Escopo Técnico do Piloto (Showroom) -->
         <section id="impacto" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">Impacto Sustentável: Nossos ODS</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O HomeIQ está alinhado com os Objetivos de Desenvolvimento Sustentável da ONU, contribuindo para um futuro mais seguro e eficiente.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">MVP Fase 1 — Escopo Técnico do Piloto (Showroom)</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Instalação profissional no showroom sem interferir na fiação interna do apartamento modelo.</p>
                 </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                     <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
-                        <span class="text-4xl">🌍</span>
-                        <h4 class="font-bold text-lg mt-4">ODS 6 – Água potável e saneamento</h4>
-                        <p class="text-gray-600">Reduzimos o desperdício de água com sensores de vazão/pressão e corte automático.</p>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-xl font-bold mb-6">Pontos Monitorados</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-blue-600 mb-3">⚡️ Circuitos Elétricos (4-6 pontos):</h4>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div class="bg-gray-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">🚿</span>
+                                        <span class="text-sm font-medium">Chuveiro</span>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">❄️</span>
+                                        <span class="text-sm font-medium">Ar-condicionado</span>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">💡</span>
+                                        <span class="text-sm font-medium">Iluminação</span>
+                                    </div>
+                                    <div class="bg-gray-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">🔌</span>
+                                        <span class="text-sm font-medium">Tomadas gerais</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-blue-600 mb-3">💧 Pontos Hídricos (2-3 pontos):</h4>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div class="bg-blue-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">🚰</span>
+                                        <span class="text-sm font-medium">Entrada principal</span>
+                                    </div>
+                                    <div class="bg-blue-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">🚿</span>
+                                        <span class="text-sm font-medium">Banheiro</span>
+                                    </div>
+                                    <div class="bg-blue-50 p-3 rounded-lg shadow-inner flex items-center">
+                                        <span class="text-xl mr-2">🏠</span>
+                                        <span class="text-sm font-medium">Área de serviço</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
-                        <span class="text-4xl">⚡️</span>
-                        <h4 class="font-bold text-lg mt-4">ODS 7 – Energia acessível e limpa</h4>
-                        <p class="text-gray-600">Monitoramos o consumo elétrico por circuito, detectando sobrecargas e incentivando a eficiência energética.</p>
+                    <div>
+                        <h3 class="text-xl font-bold mb-6">Hardware e Especificações</h3>
+                        <div class="space-y-4">
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-bold">⚡️ Medição Elétrica</h4>
+                                <p class="text-gray-600 text-sm">PZEM-016/Eastron via <strong>RS-485</strong> ou <strong>CT clamps</strong> de alta precisão</p>
+                            </div>
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-bold">💧 Sensores Hídricos</h4>
+                                <p class="text-gray-600 text-sm"><strong>Pressão:</strong> 0-10 bar (4-20mA) | <strong>Vazão:</strong> Ultrassônico (pulse) | <strong>Corte:</strong> Válvula 24V</p>
+                            </div>
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-bold">🖥️ Gateway Central</h4>
+                                <p class="text-gray-600 text-sm"><strong>ESP32-S3</strong> + expansões I/O + RS-485 isolado + Ethernet/Wi-Fi</p>
+                            </div>
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-bold">🔌 Alimentação & Proteção</h4>
+                                <p class="text-gray-600 text-sm"><strong>Fonte DIN 24V/5A</strong> + TVS + fusíveis + isolação galvânica</p>
+                            </div>
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-bold">📊 Frequência de Dados</h4>
+                                <p class="text-gray-600 text-sm">Energia: 1-2s | Água: 0.5s | Agregados: 1min/15min</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
-                         <span class="text-4xl">🏠</span>
-                        <h4 class="font-bold text-lg mt-4">ODS 11 – Cidades e comunidades sustentáveis</h4>
-                        <p class="text-gray-600">Criamos casas e condomínios mais seguros, inteligentes e resilientes a sinistros (incêndios, vazamentos).</p>
-                    </div>
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
-                        <span class="text-4xl">♻️</span>
-                        <h4 class="font-bold text-lg mt-4">ODS 12 – Consumo e produção responsáveis</h4>
-                        <p class="text-gray-600">Fornecemos dados claros para moradores e gestores tomarem decisões conscientes sobre água e energia.</p>
+                </div>
+                <div class="mt-12 bg-green-50 p-6 rounded-lg">
+                    <div class="flex items-center justify-center">
+                        <span class="text-3xl mr-4">🔒</span>
+                        <div class="text-center">
+                            <h4 class="font-bold text-lg">Segurança e Instalação</h4>
+                            <p class="text-gray-600">Instalação no quadro + barrilete, <strong>sem intervenção na fiação interna</strong>. Regras locais fail-safe para energia e água.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Slide 6: Pacotes e Modelo de Negócio -->
+        <!-- Slide 6: O que a construtora ganha com o piloto -->
         <section id="modelo" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">Modelo de Negócio: Hardware e Assinatura</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nossa receita é gerada pela venda de kits de hardware e uma assinatura mensal de serviço.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">O que a Construtora Ganha com o Piloto</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Benefícios tangíveis para vendas, marketing, operação e diferenciação competitiva.</p>
                 </div>
-                <div class="grid lg:grid-cols-3 gap-8">
-                    <!-- Kit Básico Card -->
+                <div class="grid lg:grid-cols-2 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h4 class="font-bold text-2xl text-blue-600">Kit Básico</h4>
-                        <p class="text-gray-600 mt-2">Segurança essencial e eficiência de consumo.</p>
-                        <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                            <li>Gateway central inteligente.</li>
-                            <li>Monitoramento de energia (submedição por circuito).</li>
-                            <li>Monitoramento de água (pressão, vazão, corte automático).</li>
-                            <li>Dashboard básico via app.</li>
-                        </ul>
+                        <div class="flex items-center mb-4">
+                            <span class="text-3xl mr-3">🏢</span>
+                            <h4 class="font-bold text-xl text-blue-600">Showroom Inteligente</h4>
+                        </div>
+                        <p class="text-gray-600">Demonstra <strong>qualidade, tecnologia e segurança</strong> da obra para visitantes durante tours guiados.</p>
                     </div>
-                    <!-- Kit Plus Card -->
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h4 class="font-bold text-2xl text-blue-600">Kit Plus</h4>
-                        <p class="text-gray-600 mt-2">Tudo do Básico + segurança e expansão.</p>
-                        <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                            <li>Tudo do Básico.</li>
-                            <li>Sensores de gás (GLP/GN) e qualidade do ar.</li>
-                            <li>Conectividade Zigbee/Matter.</li>
-                        </ul>
+                        <div class="flex items-center mb-4">
+                            <span class="text-3xl mr-3">📊</span>
+                            <h4 class="font-bold text-xl text-blue-600">KPIs de Eficiência</h4>
+                        </div>
+                        <p class="text-gray-600">Perfil de consumo <strong>elétrico e hídrico</strong> por ambiente; educação do cliente sobre uso consciente.</p>
                     </div>
-                    <!-- Kit Pro Card -->
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h4 class="font-bold text-2xl text-blue-600">Kit Pro</h4>
-                        <p class="text-gray-600 mt-2">Solução completa para a casa inteligente.</p>
-                        <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                            <li>Tudo do Plus.</li>
-                            <li>Automação residencial completa.</li>
-                            <li>Digital Twin 3D + Relatórios avançados + API.</li>
-                        </ul>
+                        <div class="flex items-center mb-4">
+                            <span class="text-3xl mr-3">🔧</span>
+                            <h4 class="font-bold text-xl text-blue-600">Redução de Chamados</h4>
+                        </div>
+                        <p class="text-gray-600">Insights sobre <strong>sobrecargas elétricas e vazamentos</strong>, reduzindo reclamações pós-entrega.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="text-3xl mr-3">📈</span>
+                            <h4 class="font-bold text-xl text-blue-600">Conteúdo de Marketing</h4>
+                        </div>
+                        <p class="text-gray-600"><strong>Gráficos reais</strong> do decorado, diferenciais em mídias e no estande de vendas.</p>
                     </div>
                 </div>
-                 <div class="mt-12 bg-blue-50 p-6 rounded-lg text-center">
-                    <h4 class="font-bold text-lg">Assinatura SaaS</h4>
-                    <p class="text-gray-700">Taxa mensal de <strong>R$ 19 a R$ 49</strong> por unidade para acesso a relatórios e alertas.</p>
+                <div class="mt-12 bg-green-50 p-8 rounded-lg">
+                    <div class="text-center">
+                        <span class="text-4xl mb-4 block">🤝</span>
+                        <h4 class="font-bold text-xl mb-4">Base para Parcerias Estratégicas</h4>
+                        <p class="text-gray-700">Dados reais do HomeIQ criam oportunidades de <strong>parcerias com seguradoras</strong> (futuro desconto de prêmio para compradores).</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 7: Tecnologia -->
+        <!-- Slide 7: O que eu preciso da Construtora -->
         <section id="tecnologia" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">Tecnologia e Diferenciais</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nossa inovação reside na integração e robustez tecnológica, desde o hardware ao software.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">O que Preciso da Construtora</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Requisitos mínimos para implementação do piloto no showroom, com mínima interferência nas operações.</p>
                 </div>
                 <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
                     <div class="grid md:grid-cols-2 gap-8">
                         <div>
-                             <h3 class="text-xl font-bold mb-4">Tecnologias a Desenvolver</h3>
-                            <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
-                                <li><strong>Hardware:</strong> Gateway ESP32-S3, ADC 24-bit, CT clamps, módulos Zigbee/Matter.</li>
-                                <li><strong>Firmware:</strong> Leitura em tempo real, regras locais, OTA seguro.</li>
-                                <li><strong>Software/Cloud:</strong> API FastAPI, TimescaleDB, dashboards Grafana, digital twin 3D.</li>
-                            </ul>
+                             <h3 class="text-xl font-bold mb-6 text-blue-600">Acesso e Infraestrutura</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <span class="text-2xl mr-3">⚡️</span>
+                                    <div>
+                                        <h4 class="font-bold">Quadro Elétrico</h4>
+                                        <p class="text-gray-600">Acesso ao quadro do showroom e autorização para instalação</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-2xl mr-3">🔧</span>
+                                    <div>
+                                        <h4 class="font-bold">Espaço DIN</h4>
+                                        <p class="text-gray-600">2-3 módulos no trilho DIN + energia/tomada para fonte</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-2xl mr-3">🌐</span>
+                                    <div>
+                                        <h4 class="font-bold">Conectividade</h4>
+                                        <p class="text-gray-600">Ethernet com internet ou Wi-Fi dedicado</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                          <div>
-                            <h3 class="text-xl font-bold mb-4">Diferenciais Tecnológicos</h3>
-                            <ul class="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Submedição elétrica por circuito de alta precisão (0,5-1%).</li>
-                                <li>Integração de múltiplos vetores (água + energia + gás + ar) em um único gateway.</li>
-                                <li>Compatibilidade com padrões industriais (Modbus) e residenciais (Matter, Zigbee).</li>
-                                <li>Plataforma expansível do MVP à automação completa.</li>
-                            </ul>
+                            <h3 class="text-xl font-bold mb-6 text-blue-600">Apoio Operacional</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <span class="text-2xl mr-3">👷</span>
+                                    <div>
+                                        <h4 class="font-bold">Time Elétrico</h4>
+                                        <p class="text-gray-600">2-3 horas no dia da instalação para apoio técnico</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-2xl mr-3">📄</span>
+                                    <div>
+                                        <h4 class="font-bold">Autorização de Dados</h4>
+                                        <p class="text-gray-600">Uso de dados do showroom para P&D e marketing (sem dados pessoais)</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="text-2xl mr-3">🤝</span>
+                                    <div>
+                                        <h4 class="font-bold">Ponto Focal</h4>
+                                        <p class="text-gray-600">Responsável para acompanhar dados e relatórios</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="mt-8 bg-blue-50 p-6 rounded-lg text-center">
+                        <p class="text-blue-800 font-semibold">⏱️ Instalação rápida: 2-3 horas em horário que não interfira nas visitações</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 8: Roadmap -->
+        <!-- Slide 8: Contrapartida do HomeIQ no piloto -->
          <section id="roadmap" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">Roadmap de Desenvolvimento</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nosso plano de evolução em fases, do protótipo ao projeto piloto comercial.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">Contrapartida do HomeIQ no Piloto</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nossa contribuição completa para o sucesso do piloto no showroom da construtora.</p>
                 </div>
-                <div class="relative pl-8 border-l-2 border-blue-200 max-w-2xl mx-auto">
-                    <div class="timeline-item mb-8">
-                        <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">1</div>
-                        <h4 class="font-bold text-lg">2025: MVP</h4>
-                        <p class="text-gray-600">MVP de monitoramento elétrico e de água em bancada.</p>
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-3">📦</span>
+                                <h4 class="font-bold text-xl text-blue-600">Hardware Completo</h4>
+                            </div>
+                            <p class="text-gray-600">Fornecimento do hardware do MVP <strong>(em comodato)</strong> durante todo período do piloto.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-3">🔧</span>
+                                <h4 class="font-bold text-xl text-blue-600">Instalação Profissional</h4>
+                            </div>
+                            <p class="text-gray-600"><strong>Instalação e comissionamento</strong> completos (checklist, teste de carga, validação em painel).</p>
+                        </div>
                     </div>
-                    <div class="timeline-item mb-8">
-                         <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">2</div>
-                        <h4 class="font-bold text-lg">2026: Kit Plus + Piloto</h4>
-                        <p class="text-gray-600">Lançamento do Kit Plus com sensores de gás e ar, e início do projeto piloto em 20 unidades de condomínio.</p>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-3">📈</span>
+                                <h4 class="font-bold text-xl text-blue-600">Relatórios Executivos</h4>
+                            </div>
+                            <p class="text-gray-600"><strong>Relatórios quinzenais</strong> com padrões de consumo, picos, anomalias e sugestões práticas.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-3">🎓</span>
+                                <h4 class="font-bold text-xl text-blue-600">Treinamento de Vendas</h4>
+                            </div>
+                            <p class="text-gray-600"><strong>Treinamento rápido</strong> da equipe para demonstrar o sistema aos visitantes do showroom.</p>
+                        </div>
                     </div>
-                    <div class="timeline-item mb-8">
-                         <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-300 rounded-full flex items-center justify-center text-white font-bold">3</div>
-                        <h4 class="font-bold text-lg">2027: Kit Pro + Digital Twin</h4>
-                        <p class="text-gray-600">Lançamento do Kit Pro com automação completa e Digital Twin 3D.</p>
-                    </div>
-                     <div class="timeline-item">
-                         <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-300 rounded-full flex items-center justify-center text-white font-bold">🚀</div>
-                        <h4 class="font-bold text-lg">2028: Certificação e Escala</h4>
-                        <p class="text-gray-600">Certificação INMETRO/ANATEL e parcerias com seguradoras/construtoras para escalabilidade.</p>
+                </div>
+                <div class="mt-12">
+                    <div class="bg-green-50 p-8 rounded-lg text-center">
+                        <div class="flex items-center justify-center mb-4">
+                            <span class="text-4xl mr-4">⏰</span>
+                            <h4 class="font-bold text-xl">Período de Operação</h4>
+                        </div>
+                        <p class="text-gray-700"><strong>Monitoramento e manutenção por 60-90 dias</strong> com suporte técnico completo incluído.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 9: O Pedido -->
+        <!-- Slide 9: Sucesso do piloto - metas e métricas -->
         <section id="pedido" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">O Pedido: Parceria para o Crescimento</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Buscamos o apoio do Sebrae e da Positivo para impulsionar o HomeIQ, com a certeza de que a parceria trará resultados mútuos.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">Sucesso do Piloto — Metas e Métricas</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Indicadores objetivos para validar o desempenho e o valor gerado pelo HomeIQ no showroom.</p>
                 </div>
-                <div class="grid lg:grid-cols-2 gap-12">
-                     <div class="bg-gray-50 p-8 rounded-lg shadow-inner">
-                        <h3 class="text-2xl font-bold mb-6">O Que Buscamos</h3>
-                        <ul class="space-y-4 text-gray-700">
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">▶</span><span>Apoio em P&D para finalizar o hardware e o firmware.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">▶</span><span>Validação do MVP em ambiente controlado e testes de campo.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">▶</span><span>Acesso à rede de construtoras e seguradoras.</span></li>
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+                            <div class="flex items-center mb-3">
+                                <span class="text-2xl mr-3">🎯</span>
+                                <h4 class="font-bold text-lg">Disponibilidade do Sistema</h4>
+                            </div>
+                            <p class="text-gray-600"><strong>≥ 99%</strong> de uptime durante todo período do piloto</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                            <div class="flex items-center mb-3">
+                                <span class="text-2xl mr-3">⚡️</span>
+                                <h4 class="font-bold text-lg">Latência de Dados</h4>
+                            </div>
+                            <p class="text-gray-600"><strong>< 5 segundos</strong> para telemetria em tempo real</p>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
+                            <div class="flex items-center mb-3">
+                                <span class="text-2xl mr-3">🔍</span>
+                                <h4 class="font-bold text-lg">Detecção de Eventos</h4>
+                            </div>
+                            <p class="text-gray-600">Eventos elétricos e vazamentos com <strong>precisão > 95%</strong></p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
+                            <div class="flex items-center mb-3">
+                                <span class="text-2xl mr-3">💰</span>
+                                <h4 class="font-bold text-lg">Relatório de Economia</h4>
+                            </div>
+                            <p class="text-gray-600">Oportunidades de economia elétrica e hídrica (standby, vazamentos, picos)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12">
+                    <div class="bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-lg">
+                        <div class="text-center">
+                            <span class="text-4xl mb-4 block">👥</span>
+                            <h4 class="font-bold text-xl mb-4">Engajamento Comercial</h4>
+                            <p class="text-gray-700">Número de <strong>demonstrações com o HomeIQ</strong> durante tours do decorado e feedback dos visitantes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 10: Riscos e Mitigação -->
+        <section id="riscos" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Riscos e Mitigação — Transparência Técnica</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Identificamos os principais desafios e suas soluções técnicas comprovadas.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start mb-4">
+                            <span class="text-2xl mr-3">⚠️</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-red-600">Ruído/Aterramento no Quadro</h4>
+                                <p class="text-gray-600 mt-2"><strong>Mitigação:</strong> RS-485 isolado, TVS, teste de integridade pré-instalação.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start mb-4">
+                            <span class="text-2xl mr-3">🌐</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-red-600">Queda de Internet</h4>
+                                <p class="text-gray-600 mt-2"><strong>Mitigação:</strong> Buffer local + regras offline; sincroniza quando voltar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start mb-4">
+                            <span class="text-2xl mr-3">📏</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-red-600">Espaço DIN Limitado</h4>
+                                <p class="text-gray-600 mt-2"><strong>Mitigação:</strong> Versão compacta do gateway; alternativa: mini-rack próximo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start mb-4">
+                            <span class="text-2xl mr-3">🏢</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-red-600">Interferência na Operação</h4>
+                                <p class="text-gray-600 mt-2"><strong>Mitigação:</strong> Instalação fora do horário de visitação do showroom.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start mb-4">
+                            <span class="text-2xl mr-3">💧</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-red-600">Pressão/Qualidade da Água</h4>
+                                <p class="text-gray-600 mt-2"><strong>Mitigação:</strong> Calibração com padrões locais + válvulas bypass para manutenção.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 11: Arquitetura (alto nível) -->
+        <section id="arquitetura" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Arquitetura — Só o Essencial</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Fluxo simplificado de dados do hardware até os dashboards finais.</p>
+                </div>
+                <div class="max-w-5xl mx-auto">
+                    <div class="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-8">
+                        <div class="bg-blue-50 p-6 rounded-lg text-center min-w-[200px]">
+                            <span class="text-3xl block mb-2">📊</span>
+                            <h4 class="font-bold">Sensores/Medidores</h4>
+                            <p class="text-gray-600 text-sm">Energia: RS-485/CT | Água: 4-20mA/Pulse</p>
+                        </div>
+                        <div class="text-2xl text-gray-400">→</div>
+                        <div class="bg-green-50 p-6 rounded-lg text-center min-w-[200px]">
+                            <span class="text-3xl block mb-2">🖥️</span>
+                            <h4 class="font-bold">Gateway ESP32</h4>
+                            <p class="text-gray-600 text-sm">MQTT TLS</p>
+                        </div>
+                        <div class="text-2xl text-gray-400">→</div>
+                        <div class="bg-yellow-50 p-6 rounded-lg text-center min-w-[200px]">
+                            <span class="text-3xl block mb-2">📡</span>
+                            <h4 class="font-bold">Broker Mosquitto</h4>
+                            <p class="text-gray-600 text-sm">+ Ingestor FastAPI</p>
+                        </div>
+                        <div class="text-2xl text-gray-400">→</div>
+                        <div class="bg-purple-50 p-6 rounded-lg text-center min-w-[200px]">
+                            <span class="text-3xl block mb-2">💾</span>
+                            <h4 class="font-bold">TimescaleDB</h4>
+                            <p class="text-gray-600 text-sm">Retention + Aggregates</p>
+                        </div>
+                        <div class="text-2xl text-gray-400">→</div>
+                        <div class="bg-red-50 p-6 rounded-lg text-center min-w-[200px]">
+                            <span class="text-3xl block mb-2">📱</span>
+                            <h4 class="font-bold">Dashboards</h4>
+                            <p class="text-gray-600 text-sm">Grafana/HA + App Web</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <div class="bg-gray-50 p-4 rounded-lg inline-block">
+                            <span class="text-xl mr-2">🔄</span>
+                            <span class="font-semibold">OTA/Config:</span>
+                            <span class="text-gray-600"> Endpoint seguro para atualizações</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 12: Roadmap -->
+        <section id="roadmap-futuro" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Roadmap — Visão de Expansão</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Evolução planejada sem compromissos de prazo rígido, baseada no sucesso do piloto atual.</p>
+                </div>
+                <div class="relative pl-8 border-l-2 border-blue-200 max-w-2xl mx-auto">
+                    <div class="timeline-item mb-8">
+                        <div class="absolute -left-4 top-1 w-7 h-7 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">✓</div>
+                        <h4 class="font-bold text-lg">MVP Atual (Piloto Showroom)</h4>
+                        <p class="text-gray-600"><strong>Energia + Água Integrados:</strong> submedição elétrica completa por circuito + monitoramento hídrico com pressão, vazão e corte automático de segurança.</p>
+                    </div>
+                    <div class="timeline-item mb-8">
+                         <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">1</div>
+                        <h4 class="font-bold text-lg">Fase 2: Expansão e Inteligência</h4>
+                        <p class="text-gray-600"><strong>IA Preditiva:</strong> algoritmos de machine learning para previsão de falhas, análise de padrões de consumo e otimização automática.</p>
+                    </div>
+                    <div class="timeline-item mb-8">
+                         <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-400 rounded-full flex items-center justify-center text-white font-bold">2</div>
+                        <h4 class="font-bold text-lg">Fase 3: Gás + Qualidade do Ar</h4>
+                        <p class="text-gray-600"><strong>Expansão de Infraestrutura:</strong> detecção de gás com corte automático + monitoramento de CO₂, COV e partículas.</p>
+                    </div>
+                     <div class="timeline-item">
+                         <div class="absolute -left-4 top-1 w-7 h-7 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold">3</div>
+                        <h4 class="font-bold text-lg">Fase 4: Automação + Digital Twin</h4>
+                        <p class="text-gray-600"><strong>Casa Autônoma:</strong> integração Zigbee/Matter, gêmeo digital 3D e APIs para seguradoras e serviços.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 13: Proposta de Execução -->
+        <section id="cronograma" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Proposta de Execução — Cronograma do Piloto</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Timeline estruturado para implementação e operação do piloto no showroom.</p>
+                </div>
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="bg-blue-50 p-6 rounded-lg text-center">
+                            <div class="text-2xl font-bold text-blue-600 mb-2">T0</div>
+                            <h4 class="font-bold mb-3">Semana 0</h4>
+                            <p class="text-gray-600">Vistoria técnica do quadro e checklist de rede.</p>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-lg text-center">
+                            <div class="text-2xl font-bold text-green-600 mb-2">T1</div>
+                            <h4 class="font-bold mb-3">Semana 1</h4>
+                            <p class="text-gray-600">Instalação (2-3h) + validação de leituras.</p>
+                        </div>
+                        <div class="bg-yellow-50 p-6 rounded-lg text-center">
+                            <div class="text-2xl font-bold text-yellow-600 mb-2">T2-8</div>
+                            <h4 class="font-bold mb-3">Semanas 2-8</h4>
+                            <p class="text-gray-600">Operação assistida + relatórios quinzenais.</p>
+                        </div>
+                        <div class="bg-purple-50 p-6 rounded-lg text-center">
+                            <div class="text-2xl font-bold text-purple-600 mb-2">T9</div>
+                            <h4 class="font-bold mb-3">Semana 9</h4>
+                            <p class="text-gray-600">Relatório final + plano de expansão.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 14: Alinhamento com os ODS -->
+        <section id="ods" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Alinhamento com os Objetivos de Desenvolvimento Sustentável</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O HomeIQ contribui diretamente para múltiplos ODS da ONU, gerando impacto social e ambiental mensurável.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                    <!-- ODS 6: Água Potável e Saneamento -->
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">6</div>
+                            <div>
+                                <h4 class="font-bold text-lg text-blue-800">Água Potável e Saneamento</h4>
+                                <p class="text-sm text-blue-600">Gestão Sustentável da Água</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• <strong>Detecção precoce de vazamentos</strong> reduz desperdício</li>
+                            <li>• Monitoramento de qualidade e pressão da água</li>
+                            <li>• Educação sobre consumo consciente</li>
+                            <li>• Otimização do uso de recursos hídricos</li>
                         </ul>
-                     </div>
-                     <div class="bg-blue-50 p-8 rounded-lg shadow-inner">
-                         <h3 class="text-2xl font-bold mb-6">Nossa Contrapartida</h3>
-                         <ul class="space-y-4 text-gray-700">
-                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Uma startup brasileira de deep tech em IoT residencial.</span></li>
-                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Um produto com alto potencial de patente e internacionalização.</span></li>
-                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Alinhamento a ODS e políticas de eficiência energética.</span></li>
+                    </div>
+
+                    <!-- ODS 7: Energia Limpa e Acessível -->
+                    <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">7</div>
+                            <div>
+                                <h4 class="font-bold text-lg text-yellow-800">Energia Limpa e Acessível</h4>
+                                <p class="text-sm text-yellow-600">Eficiência Energética</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• <strong>Monitoramento em tempo real</strong> do consumo energético</li>
+                            <li>• Identificação de desperdícios e standby ocultos</li>
+                            <li>• Otimização de cargas e fator de potência</li>
+                            <li>• Educação para uso eficiente da energia</li>
                         </ul>
-                     </div>
+                    </div>
+
+                    <!-- ODS 9: Indústria, Inovação e Infraestrutura -->
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">9</div>
+                            <div>
+                                <h4 class="font-bold text-lg text-orange-800">Indústria, Inovação e Infraestrutura</h4>
+                                <p class="text-sm text-orange-600">Infraestrutura Resiliente</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• <strong>IoT aplicado à infraestrutura residencial</strong></li>
+                            <li>• Desenvolvimento de tecnologia nacional</li>
+                            <li>• Inovação em monitoramento predativo</li>
+                            <li>• Digitalização da construção civil</li>
+                        </ul>
+                    </div>
+
+                    <!-- ODS 11: Cidades e Comunidades Sustentáveis -->
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">11</div>
+                            <div>
+                                <h4 class="font-bold text-lg text-green-800">Cidades e Comunidades Sustentáveis</h4>
+                                <p class="text-sm text-green-600">Habitação Sustentável</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• <strong>Residências mais seguras e eficientes</strong></li>
+                            <li>• Redução de acidentes elétricos e hídricos</li>
+                            <li>• Melhoria da qualidade de vida urbana</li>
+                            <li>• Construção civil sustentável</li>
+                        </ul>
+                    </div>
+
+                    <!-- ODS 12: Consumo e Produção Responsáveis -->
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">12</div>
+                            <div>
+                                <h4 class="font-bold text-lg text-purple-800">Consumo e Produção Responsáveis</h4>
+                                <p class="text-sm text-purple-600">Uso Consciente de Recursos</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• <strong>Transparência no consumo</strong> de energia e água</li>
+                            <li>• Gamificação para redução de desperdícios</li>
+                            <li>• Dados para decisões conscientes</li>
+                            <li>• Educação sobre sustentabilidade</li>
+                        </ul>
+                    </div>
+
+                    <!-- ODS 13: Ação Contra a Mudança Global do Clima -->
+                    <div class="bg-gradient-to-br from-teal-50 to-teal-100 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">13</div>
+                            <div>
+                                <h4 class="font-bold text-lg text-teal-800">Ação Contra a Mudança do Clima</h4>
+                                <p class="text-sm text-teal-600">Redução de Emissões</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• <strong>Redução do consumo energético</strong> diminui emissões</li>
+                            <li>• Otimização de recursos reduz pegada de carbono</li>
+                            <li>• Monitoramento para metas de sustentabilidade</li>
+                            <li>• Contribuição para economia de baixo carbono</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Resumo de impacto -->
+                <div class="bg-gradient-to-r from-blue-600 to-green-600 text-white p-8 rounded-lg shadow-lg">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold mb-4">🌍 Impacto Mensurável dos ODS</h3>
+                        <div class="grid md:grid-cols-3 gap-8 mt-6">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold mb-2">20-30%</div>
+                                <p class="text-sm opacity-90">Redução potencial no consumo de água por detecção precoce de vazamentos</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold mb-2">10-15%</div>
+                                <p class="text-sm opacity-90">Economia de energia através da conscientização e otimização</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold mb-2">6 ODS</div>
+                                <p class="text-sm opacity-90">Objetivos de Desenvolvimento Sustentável diretamente impactados</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 bg-white/20 p-4 rounded-lg">
+                            <p class="text-sm"><strong>ESG Integration:</strong> O HomeIQ oferece métricas ESG quantificáveis para construtoras, criando valor tanto para investidores quanto para compradores conscientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 15: O Pedido (Call-to-Action) -->
+        <section id="call-to-action" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">O Pedido — Call-to-Action</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Próximos passos concretos para iniciar nossa parceria estratégica.</p>
+                </div>
+                <div class="max-w-3xl mx-auto">
+                    <div class="grid gap-6">
+                        <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-4">✅</span>
+                                <h4 class="font-bold text-xl text-blue-800">Aprovação do Piloto</h4>
+                            </div>
+                            <p class="text-gray-700">Autorização para implementar o HomeIQ no showroom da construtora.</p>
+                        </div>
+                        <div class="bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-lg shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-4">📅</span>
+                                <h4 class="font-bold text-xl text-green-800">Agendamento</h4>
+                            </div>
+                            <p class="text-gray-700">Vistoria técnica e definição da janela de instalação.</p>
+                        </div>
+                        <div class="bg-gradient-to-r from-purple-50 to-purple-100 p-8 rounded-lg shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <span class="text-3xl mr-4">👥</span>
+                                <h4 class="font-bold text-xl text-purple-800">Ponto Focal</h4>
+                            </div>
+                            <p class="text-gray-700">Indicação do responsável (engenharia/marketing) para acompanhar dados e relatórios.</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 bg-yellow-50 p-6 rounded-lg text-center">
+                        <p class="text-gray-700"><strong>Nota:</strong> Participação societária/condições comerciais <strong>em aberto</strong> — avaliar após o piloto.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -365,9 +902,13 @@
 
     <footer class="bg-gray-800 text-white py-10">
         <div class="container mx-auto px-6 text-center">
-            <h3 class="text-2xl font-bold">Vamos construir o futuro das residências juntos.</h3>
-            <p class="mt-4">Entre em contato para agendar uma demonstração.</p>
-            <p class="mt-2 font-semibold">Carlos Eduardo Lanzi | carlos.eduardo@lanzi.tech | +55 14 981677038</p>
+            <h3 class="text-2xl font-bold">HomeIQ = Valor Tangível + Diferencial Competitivo</h3>
+            <p class="mt-4">Vamos transformar o showroom em um <strong>case vivo de eficiência e segurança</strong>.</p>
+            <div class="mt-6 bg-gray-700 p-4 rounded-lg inline-block">
+                <p class="font-semibold">Próximos Passos & Contato:</p>
+                <p class="mt-2">Carlos Eduardo Lanzi | carlos.eduardo@lanzi.tech | +55 14 981677038</p>
+                <p class="mt-1 text-sm text-gray-300">Agendamento da vistoria técnica e início do piloto</p>
+            </div>
         </div>
     </footer>
 
@@ -406,42 +947,6 @@
             sections.forEach(section => {
                 observer.observe(section);
             });
-            
-            const marketData = {
-                labels: ['2023', '2025', '2027', '2029', '2031', '2032'],
-                datasets: [{
-                    label: 'Mercado Global Smart Home (em US$ Bi)',
-                    data: [101, 158, 252, 350, 500, 633],
-                    backgroundColor: '#3B82F6',
-                    borderRadius: 4
-                }]
-            };
-
-            const marketConfig = {
-                type: 'bar',
-                data: marketData,
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'US$ Bilhões'
-                            }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false
-                        }
-                    }
-                }
-            };
-            
-            const marketCtx = document.getElementById('marketChart').getContext('2d');
-            new Chart(marketCtx, marketConfig);
         });
     </script>
 </body>
