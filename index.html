@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pitch Deck: HomeIQ</title>
+    <title>HomeIQ: Inteligência para Infraestrutura de Condomínios</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,10 +43,11 @@
             <div class="hidden md:flex space-x-8">
                 <a href="#problema" class="nav-link text-gray-600 hover:text-blue-600 transition">O Problema</a>
                 <a href="#solucao" class="nav-link text-gray-600 hover:text-blue-600 transition">A Solução</a>
+                <a href="#casos-uso" class="nav-link text-gray-600 hover:text-blue-600 transition">Casos de Uso</a>
                 <a href="#tecnologia" class="nav-link text-gray-600 hover:text-blue-600 transition">Tecnologia</a>
                 <a href="#modelo" class="nav-link text-gray-600 hover:text-blue-600 transition">Modelo</a>
                 <a href="#roadmap" class="nav-link text-gray-600 hover:text-blue-600 transition">Roadmap</a>
-                <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">O Pedido</a>
+                <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">Parceria</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400">
                 <div class="w-6 h-0.5 bg-gray-600 mb-1.5"></div>
@@ -56,10 +57,11 @@
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col space-y-4">
              <a href="#problema" class="nav-link text-gray-600 hover:text-blue-600 transition">O Problema</a>
              <a href="#solucao" class="nav-link text-gray-600 hover:text-blue-600 transition">A Solução</a>
+             <a href="#casos-uso" class="nav-link text-gray-600 hover:text-blue-600 transition">Casos de Uso</a>
              <a href="#tecnologia" class="nav-link text-gray-600 hover:text-blue-600 transition">Tecnologia</a>
              <a href="#modelo" class="nav-link text-gray-600 hover:text-blue-600 transition">Modelo</a>
              <a href="#roadmap" class="nav-link text-gray-600 hover:text-blue-600 transition">Roadmap</a>
-             <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">O Pedido</a>
+             <a href="#pedido" class="nav-link text-gray-600 hover:text-blue-600 transition">Parceria</a>
         </div>
     </header>
 
@@ -68,10 +70,10 @@
         <section id="capa" class="bg-white py-20 md:py-32">
             <div class="container mx-auto px-6 text-center">
                 <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight">
-                    HomeIQ: The House that Thinks.
+                    HomeIQ: O Cérebro de Infraestrutura para Condomínios.
                 </h1>
                 <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                    Um gateway inteligente que unifica segurança, eficiência e automação para residências e condomínios.
+                    Monitoramento inteligente de energia, água e bombas para condomínios e prédios: decisões baseadas em dados, redução de sinistros e maior eficiência operacional.
                 </p>
             </div>
         </section>
@@ -80,30 +82,29 @@
         <section id="problema" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">O Problema: Acidentes Silenciosos, Prejuízos Reais</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O Brasil e o mundo enfrentam riscos crescentes de acidentes e perdas em residências, causados por falhas de infraestrutura e falta de monitoramento.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">O Problema: Infraestrutura Invisível, Custos Visíveis</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Condomínios e prédios enfrentam desafios diários com infraestrutura mal monitorada: contas imprevisíveis, sinistros recorrentes e falta de dados para gestão eficiente.</p>
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
                         <span class="text-4xl text-blue-600">⚡️</span>
-                        <h3 class="text-xl font-bold mt-4">Acidentes Elétricos</h3>
-                        <p class="mt-2 text-gray-600"><strong>2.373</strong> acidentes em 2024, com <strong>759 mortes</strong>, um aumento de <strong>+11,6%</strong> em relação a 2023.
-                        </p>
+                        <h3 class="text-xl font-bold mt-4">Contas de Energia Altas</h3>
+                        <p class="mt-2 text-gray-600">Contas "estourando" sem saber onde está o gasto: <strong>garagens, bombas, elevadores</strong> ou áreas comuns?</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
                         <span class="text-4xl text-blue-600">💧</span>
-                        <h3 class="text-xl font-bold mt-4">Vazamentos de Água</h3>
-                        <p class="mt-2 text-gray-600">Principal causa de sinistros e danos estruturais em seguros residenciais.</p>
+                        <h3 class="text-xl font-bold mt-4">Falta d'Água e Vazamentos</h3>
+                        <p class="mt-2 text-gray-600">Falhas em bombas, transbordos de caixas d'água e vazamentos invisíveis geram <strong>sinistros e reclamações</strong>.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-                        <span class="text-4xl text-blue-600">🔥</span>
-                        <h3 class="text-xl font-bold mt-4">Vazamentos de Gás</h3>
-                        <p class="mt-2 text-gray-600">Perigo silencioso que causa explosões e intoxicações.</p>
+                        <span class="text-4xl text-blue-600">🔧</span>
+                        <h3 class="text-xl font-bold mt-4">Gestão Reativa</h3>
+                        <p class="mt-2 text-gray-600">Síndicos e gestores sempre <strong>apagando incêndios</strong>, sem dados históricos para prevenir problemas.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-                        <span class="text-4xl text-blue-600">📈</span>
-                        <h3 class="text-xl font-bold mt-4">Desperdício</h3>
-                        <p class="mt-2 text-gray-600">Perdas de <strong>14,1%</strong> na distribuição de energia (ANEEL 2023) e alto desperdício de água.</p>
+                        <span class="text-4xl text-blue-600">🏗️</span>
+                        <h3 class="text-xl font-bold mt-4">Pós-Obra Sem Dados</h3>
+                        <p class="mt-2 text-gray-600">Construtoras enfrentam <strong>reclamações sem evidências objetivas</strong> e não aprendem com empreendimentos anteriores.</p>
                     </div>
                 </div>
             </div>
@@ -114,7 +115,7 @@
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold">A Oportunidade: Um Mercado em Crescimento Exponencial</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O mercado global de casas inteligentes está em plena expansão, criando a demanda por soluções como o HomeIQ.</p>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">O mercado de automação e monitoramento predial está em expansão, com condomínios e prédios comerciais buscando soluções para gestão eficiente de infraestrutura.</p>
                 </div>
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
@@ -126,22 +127,22 @@
                         <div class="flex items-start">
                             <span class="text-3xl mr-4">🌐</span>
                             <div>
-                                <h4 class="font-bold text-lg">Mercado Global Smart Home</h4>
-                                <p class="text-gray-600"><strong>US$ 101 bi</strong> (2023) → <strong>US$ 633 bi</strong> (2032), com um CAGR de <strong>22,9%</strong>.</p>
+                                <h4 class="font-bold text-lg">Mercado Global Smart Building</h4>
+                                <p class="text-gray-600"><strong>US$ 101 bi</strong> (2023) → <strong>US$ 633 bi</strong> (2032), com um CAGR de <strong>22,9%</strong>, incluindo automação residencial e predial.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <span class="text-3xl mr-4">🇧🇷</span>
+                            <span class="text-3xl mr-4">🏢</span>
                             <div>
-                                <h4 class="font-bold text-lg">Mercado Latino Americano</h4>
-                                <p class="text-gray-600">Crescimento de <strong>~20%</strong> ao ano em casas inteligentes até 2030.</p>
+                                <h4 class="font-bold text-lg">Condomínios e Prédios Comerciais</h4>
+                                <p class="text-gray-600">Demanda crescente por <strong>submedição de energia</strong>, gestão de água e <strong>manutenção preditiva</strong> de equipamentos.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <span class="text-3xl mr-4">🏡</span>
+                            <span class="text-3xl mr-4">🏗️</span>
                             <div>
-                                <h4 class="font-bold text-lg">Mercado Brasileiro</h4>
-                                <p class="text-gray-600"><strong>5 milhões</strong> de novas residências e condomínios em 5 anos, um mercado-alvo natural para o HomeIQ.</p>
+                                <h4 class="font-bold text-lg">Pipeline de Novos Empreendimentos</h4>
+                                <p class="text-gray-600"><strong>5 milhões</strong> de novas unidades habitacionais no Brasil em 5 anos, além de retrofit de prédios existentes.</p>
                             </div>
                         </div>
                     </div>
@@ -154,35 +155,36 @@
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold">A Solução: HomeIQ</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Um gateway central que age como o cérebro da casa, monitorando tudo em tempo real e agindo para prevenir desastres.</p>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Um sistema de monitoramento de infraestrutura que transforma condomínios em empreendimentos inteligentes, com visibilidade total sobre energia, água e equipamentos críticos.</p>
                 </div>
                 <div class="bg-gray-50 p-8 rounded-lg shadow-inner">
                     <div class="grid md:grid-cols-3 gap-8 text-center">
                         <div class="flex flex-col items-center">
-                            <div class="text-5xl mb-4">🖥️</div>
-                            <h4 class="font-bold text-lg">Monitoramento Integrado</h4>
-                            <p class="text-gray-600">Um único gateway para monitorar água, energia, gás e qualidade do ar.</p>
+                            <div class="text-5xl mb-4">🔌</div>
+                            <h4 class="font-bold text-lg">Submedição Setorizada</h4>
+                            <p class="text-gray-600">Monitoramento de energia por setor: áreas comuns, bombas, garagens, elevadores e andares (prédios comerciais).</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <div class="text-5xl font-bold text-blue-600">⚙️</div>
-                            <h4 class="font-bold text-lg">Autonomia Fail-safe</h4>
-                             <p class="text-gray-600">Atua localmente para prevenir acidentes, mesmo sem conexão com a internet.</p>
+                            <div class="text-5xl font-bold text-blue-600">💧</div>
+                            <h4 class="font-bold text-lg">Gestão Inteligente de Água</h4>
+                             <p class="text-gray-600">Medição de vazão, níveis de caixas d'água e cisternas, monitoramento de bombas e detecção de vazamentos.</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <div class="text-5xl mb-4">📲</div>
-                            <h4 class="font-bold text-lg">Evolui para Automação</h4>
-                             <p class="text-gray-600">Além da segurança, o HomeIQ se expande para controlar a automação residencial completa.</p>
+                            <div class="text-5xl mb-4">📊</div>
+                            <h4 class="font-bold text-lg">Dashboards e Relatórios</h4>
+                             <p class="text-gray-600">Interface clara para síndicos e gestores, com relatórios históricos para construtoras e administradoras.</p>
                         </div>
                     </div>
                 </div>
                 <div class="mt-12 grid md:grid-cols-2 gap-8 items-center">
                      <div>
-                        <h3 class="text-2xl font-bold mb-4">Interface Intuitiva com Digital Twin</h3>
-                        <p class="text-gray-600 mb-4">Nossa interface transforma a residência em um "gêmeo digital" interativo, tornando o monitoramento visual e intuitivo.</p>
+                        <h3 class="text-2xl font-bold mb-4">Digital Twin: Visibilidade Total da Infraestrutura</h3>
+                        <p class="text-gray-600 mb-4">Transformamos o condomínio em um "gêmeo digital" interativo, permitindo visualização em tempo real de todos os sistemas.</p>
                         <ul class="space-y-3">
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Visualização em planta 2D/3D.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Relatórios de consumo detalhados.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Controle de automação integrado.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Visualização de planta 2D/3D com status de equipamentos.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Alertas inteligentes de falhas e anomalias.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>Histórico de consumo e relatórios para tomada de decisão.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-2">✔</span><span>API para integração com sistemas de administradoras.</span></li>
                         </ul>
                     </div>
                     <div class="flex justify-center">
@@ -192,7 +194,68 @@
             </div>
         </section>
 
-        <!-- Slide 5: ODS e Impacto -->
+        <!-- Slide 5: Casos de Uso -->
+        <section id="casos-uso" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Casos de Uso: Para Quem é o HomeIQ?</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nossa solução atende diferentes tipos de empreendimentos, cada um com necessidades específicas de monitoramento.</p>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Condomínio de Casas -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <div class="text-center mb-4">
+                            <span class="text-5xl">🏘️</span>
+                            <h3 class="text-2xl font-bold mt-4">Condomínio de Casas</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Monitoramento de áreas comuns e infraestrutura compartilhada.</p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Iluminação de vias internas e portaria</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Bombas de água e irrigação</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Áreas de lazer (piscina, salão)</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Controle de consumo por setor</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Prédio Residencial -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <div class="text-center mb-4">
+                            <span class="text-5xl">🏢</span>
+                            <h3 class="text-2xl font-bold mt-4">Prédio Residencial</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Gestão completa de infraestrutura predial e prevenção de sinistros.</p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Garagem, iluminação e elevadores</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Sistema de bombas e caixas d'água</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Academia, salão de festas, piscina</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Detecção de vazamentos e falhas</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Prédio Comercial -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <div class="text-center mb-4">
+                            <span class="text-5xl">🏬</span>
+                            <h3 class="text-2xl font-bold mt-4">Prédio Comercial</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Eficiência energética e conforto para ambientes corporativos.</p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Consumo por andar ou conjunto</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Qualidade do ar e temperatura</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Ar-condicionado central e fancoils</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 mr-2">•</span><span>Manutenção preditiva de equipamentos</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-12 bg-blue-50 p-6 rounded-lg text-center">
+                    <h4 class="font-bold text-lg mb-2">Benefícios para Construtoras</h4>
+                    <p class="text-gray-700">Dados objetivos de pós-obra para reduzir reclamações, melhorar projetos futuros e oferecer diferencial competitivo com "condomínio inteligente de verdade".</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: ODS e Impacto -->
         <section id="impacto" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
@@ -203,98 +266,101 @@
                      <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
                         <span class="text-4xl">🌍</span>
                         <h4 class="font-bold text-lg mt-4">ODS 6 – Água potável e saneamento</h4>
-                        <p class="text-gray-600">Reduzimos o desperdício de água com sensores de vazão/pressão e corte automático.</p>
+                        <p class="text-gray-600">Reduzimos desperdício com monitoramento de vazão, níveis de caixas d'água e detecção precoce de vazamentos em condomínios.</p>
                     </div>
                     <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
                         <span class="text-4xl">⚡️</span>
                         <h4 class="font-bold text-lg mt-4">ODS 7 – Energia acessível e limpa</h4>
-                        <p class="text-gray-600">Monitoramos o consumo elétrico por circuito, detectando sobrecargas e incentivando a eficiência energética.</p>
+                        <p class="text-gray-600">Submedição setorizada permite identificar desperdícios e otimizar o consumo de energia em áreas comuns e equipamentos.</p>
                     </div>
                     <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
-                         <span class="text-4xl">🏠</span>
+                         <span class="text-4xl">🏢</span>
                         <h4 class="font-bold text-lg mt-4">ODS 11 – Cidades e comunidades sustentáveis</h4>
-                        <p class="text-gray-600">Criamos casas e condomínios mais seguros, inteligentes e resilientes a sinistros (incêndios, vazamentos).</p>
+                        <p class="text-gray-600">Tornamos condomínios e prédios mais seguros, eficientes e resilientes a sinistros através de monitoramento contínuo.</p>
                     </div>
                     <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex flex-col items-center text-center">
                         <span class="text-4xl">♻️</span>
                         <h4 class="font-bold text-lg mt-4">ODS 12 – Consumo e produção responsáveis</h4>
-                        <p class="text-gray-600">Fornecemos dados claros para moradores e gestores tomarem decisões conscientes sobre água e energia.</p>
+                        <p class="text-gray-600">Dados precisos capacitam síndicos, gestores e construtoras a tomar decisões conscientes sobre recursos.</p>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Slide 6: Pacotes e Modelo de Negócio -->
+        <!-- Slide 7: Pacotes e Modelo de Negócio -->
         <section id="modelo" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">Modelo de Negócio: Hardware e Assinatura</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nossa receita é gerada pela venda de kits de hardware e uma assinatura mensal de serviço.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">Modelo de Negócio: Hardware + SaaS para Condomínios</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Receita recorrente através da venda de sistemas de monitoramento e assinatura de plataforma para gestão de dados.</p>
                 </div>
                 <div class="grid lg:grid-cols-3 gap-8">
                     <!-- Kit Básico Card -->
                     <div class="bg-white p-6 rounded-lg shadow-md">
                         <h4 class="font-bold text-2xl text-blue-600">Kit Básico</h4>
-                        <p class="text-gray-600 mt-2">Segurança essencial e eficiência de consumo.</p>
+                        <p class="text-gray-600 mt-2">Monitoramento essencial para áreas comuns.</p>
                         <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                            <li>Gateway central inteligente.</li>
-                            <li>Monitoramento de energia (submedição por circuito).</li>
-                            <li>Monitoramento de água (pressão, vazão, corte automático).</li>
-                            <li>Dashboard básico via app.</li>
+                            <li>Gateways para instalação em QGBT/casa de máquinas.</li>
+                            <li>Submedição de energia (áreas comuns, bombas, garagem).</li>
+                            <li>Monitoramento básico de água (vazão e nível).</li>
+                            <li>Dashboard web para síndico/gestor.</li>
                         </ul>
                     </div>
                     <!-- Kit Plus Card -->
                     <div class="bg-white p-6 rounded-lg shadow-md">
                         <h4 class="font-bold text-2xl text-blue-600">Kit Plus</h4>
-                        <p class="text-gray-600 mt-2">Tudo do Básico + segurança e expansão.</p>
+                        <p class="text-gray-600 mt-2">Tudo do Básico + monitoramento ambiental.</p>
                         <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                            <li>Tudo do Básico.</li>
-                            <li>Sensores de gás (GLP/GN) e qualidade do ar.</li>
-                            <li>Conectividade Zigbee/Matter.</li>
+                            <li>Tudo do Kit Básico.</li>
+                            <li>Monitoramento de bombas (corrente, ciclos, falhas).</li>
+                            <li>Sensores ambientais para áreas de lazer (temperatura, umidade, CO₂).</li>
+                            <li>Alertas inteligentes por WhatsApp/e-mail.</li>
                         </ul>
                     </div>
                     <!-- Kit Pro Card -->
                     <div class="bg-white p-6 rounded-lg shadow-md">
                         <h4 class="font-bold text-2xl text-blue-600">Kit Pro</h4>
-                        <p class="text-gray-600 mt-2">Solução completa para a casa inteligente.</p>
+                        <p class="text-gray-600 mt-2">Solução completa para prédios comerciais e condomínios premium.</p>
                         <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                            <li>Tudo do Plus.</li>
-                            <li>Automação residencial completa.</li>
-                            <li>Digital Twin 3D + Relatórios avançados + API.</li>
+                            <li>Tudo do Kit Plus.</li>
+                            <li>Monitoramento por andar/conjunto (prédios comerciais).</li>
+                            <li>Digital Twin 3D + Relatórios avançados para construtoras.</li>
+                            <li>API para integração com sistemas de administradoras.</li>
                         </ul>
                     </div>
                 </div>
                  <div class="mt-12 bg-blue-50 p-6 rounded-lg text-center">
-                    <h4 class="font-bold text-lg">Assinatura SaaS</h4>
-                    <p class="text-gray-700">Taxa mensal de <strong>R$ 19 a R$ 49</strong> por unidade para acesso a relatórios e alertas.</p>
+                    <h4 class="font-bold text-lg">Modelo de Receita SaaS</h4>
+                    <p class="text-gray-700">Assinatura mensal de <strong>R$ 299 a R$ 899</strong> por condomínio/empreendimento para acesso à plataforma, dashboards, relatórios históricos e suporte técnico.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 7: Tecnologia -->
+        <!-- Slide 8: Tecnologia -->
         <section id="tecnologia" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold">Tecnologia e Diferenciais</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nossa inovação reside na integração e robustez tecnológica, desde o hardware ao software.</p>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Arquitetura robusta e escalável, combinando hardware de mercado com software proprietário para monitoramento predial.</p>
                 </div>
                 <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
                     <div class="grid md:grid-cols-2 gap-8">
                         <div>
-                             <h3 class="text-xl font-bold mb-4">Tecnologias a Desenvolver</h3>
+                             <h3 class="text-xl font-bold mb-4">Stack Tecnológico</h3>
                             <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
-                                <li><strong>Hardware:</strong> Gateway ESP32-S3, ADC 24-bit, CT clamps, módulos Zigbee/Matter.</li>
-                                <li><strong>Firmware:</strong> Leitura em tempo real, regras locais, OTA seguro.</li>
-                                <li><strong>Software/Cloud:</strong> API FastAPI, TimescaleDB, dashboards Grafana, digital twin 3D.</li>
+                                <li><strong>Hardware:</strong> Gateways instalados em QGBT e casas de máquinas, medidores DIN (Shelly EM/3EM), sensores de nível e vazão.</li>
+                                <li><strong>Conectividade:</strong> MQTT, Modbus RTU/TCP, protocolos industriais, WiFi/Ethernet.</li>
+                                <li><strong>Backend:</strong> API REST (FastAPI/Node.js), banco de dados timeseries (InfluxDB/TimescaleDB).</li>
+                                <li><strong>Frontend:</strong> Dashboards web responsivos, digital twin 2D/3D, relatórios customizados.</li>
                             </ul>
                         </div>
                          <div>
-                            <h3 class="text-xl font-bold mb-4">Diferenciais Tecnológicos</h3>
+                            <h3 class="text-xl font-bold mb-4">Diferenciais Competitivos</h3>
                             <ul class="list-disc list-inside space-y-2 text-gray-700">
-                                <li>Submedição elétrica por circuito de alta precisão (0,5-1%).</li>
-                                <li>Integração de múltiplos vetores (água + energia + gás + ar) em um único gateway.</li>
-                                <li>Compatibilidade com padrões industriais (Modbus) e residenciais (Matter, Zigbee).</li>
-                                <li>Plataforma expansível do MVP à automação completa.</li>
+                                <li>Submedição setorizada de alta precisão para áreas comuns e equipamentos críticos.</li>
+                                <li>Monitoramento integrado de múltiplos sistemas (energia, água, bombas, ambiente).</li>
+                                <li>Compatibilidade com equipamentos de mercado (Shelly, Modbus, sensores padrão).</li>
+                                <li>Plataforma escalável: do monitoramento básico até automação completa e integração com sistemas de administradoras.</li>
                             </ul>
                         </div>
                     </div>
@@ -302,60 +368,61 @@
             </div>
         </section>
 
-        <!-- Slide 8: Roadmap -->
+        <!-- Slide 9: Roadmap -->
          <section id="roadmap" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold">Roadmap de Desenvolvimento</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Nosso plano de evolução em fases, do protótipo ao projeto piloto comercial.</p>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Evolução estratégica do protótipo à escala comercial, com foco em pilotos e parcerias com construtoras.</p>
                 </div>
                 <div class="relative pl-8 border-l-2 border-blue-200 max-w-2xl mx-auto">
                     <div class="timeline-item mb-8">
                         <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">1</div>
-                        <h4 class="font-bold text-lg">2025: MVP</h4>
-                        <p class="text-gray-600">MVP de monitoramento elétrico e de água em bancada.</p>
+                        <h4 class="font-bold text-lg">2025–2026: Fase APOC e Pilotos</h4>
+                        <p class="text-gray-600">Desenvolvimento do MVP com monitoramento de energia e água. Início de pilotos em 1-3 condomínios (residencial e comercial) para validação de campo.</p>
                     </div>
                     <div class="timeline-item mb-8">
                          <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">2</div>
-                        <h4 class="font-bold text-lg">2026: Kit Plus + Piloto</h4>
-                        <p class="text-gray-600">Lançamento do Kit Plus com sensores de gás e ar, e início do projeto piloto em 20 unidades de condomínio.</p>
+                        <h4 class="font-bold text-lg">2026: Integração com Construtoras</h4>
+                        <p class="text-gray-600">Estabelecimento de parcerias com construtoras para instalação em novos empreendimentos. Desenvolvimento do Kit Plus com sensores ambientais e monitoramento de bombas.</p>
                     </div>
                     <div class="timeline-item mb-8">
                          <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-300 rounded-full flex items-center justify-center text-white font-bold">3</div>
-                        <h4 class="font-bold text-lg">2027: Kit Pro + Digital Twin</h4>
-                        <p class="text-gray-600">Lançamento do Kit Pro com automação completa e Digital Twin 3D.</p>
+                        <h4 class="font-bold text-lg">2027: Retrofit e Kit Pro</h4>
+                        <p class="text-gray-600">Expansão para retrofit de prédios existentes. Lançamento do Kit Pro com Digital Twin 3D, API para administradoras e relatórios avançados para construtoras.</p>
                     </div>
                      <div class="timeline-item">
                          <div class="absolute -left-4 top-1 w-7 h-7 bg-blue-300 rounded-full flex items-center justify-center text-white font-bold">🚀</div>
-                        <h4 class="font-bold text-lg">2028: Certificação e Escala</h4>
-                        <p class="text-gray-600">Certificação INMETRO/ANATEL e parcerias com seguradoras/construtoras para escalabilidade.</p>
+                        <h4 class="font-bold text-lg">2028+: Escala e Expansão para Unidades</h4>
+                        <p class="text-gray-600">Certificações (INMETRO/ANATEL), parcerias com seguradoras e expansão opcional para nível de unidade (apartamento/casa) usando mesma base tecnológica.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Slide 9: O Pedido -->
+        <!-- Slide 10: O Pedido -->
         <section id="pedido" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">O Pedido: Parceria para o Crescimento</h2>
-                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Buscamos o apoio do Sebrae e da Positivo para impulsionar o HomeIQ, com a certeza de que a parceria trará resultados mútuos.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold">Parceria para Transformar Condomínios</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Buscamos construtoras, administradoras e parceiros estratégicos para pilotos e co-desenvolvimento de soluções de monitoramento predial.</p>
                 </div>
                 <div class="grid lg:grid-cols-2 gap-12">
                      <div class="bg-gray-50 p-8 rounded-lg shadow-inner">
                         <h3 class="text-2xl font-bold mb-6">O Que Buscamos</h3>
                         <ul class="space-y-4 text-gray-700">
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">▶</span><span>Apoio em P&D para finalizar o hardware e o firmware.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">▶</span><span>Validação do MVP em ambiente controlado e testes de campo.</span></li>
-                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">▶</span><span>Acesso à rede de construtoras e seguradoras.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">🏗️</span><span><strong>Construtoras:</strong> Pilotos em empreendimentos para validação, feedback de pós-obra e diferencial competitivo.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">🏢</span><span><strong>Administradoras:</strong> Acesso a base de condomínios para testes de campo e integração de sistemas.</span></li>
+                            <li class="flex items-start"><span class="text-blue-500 font-bold mr-3">🤝</span><span><strong>Parceiros Estratégicos:</strong> Apoio em P&D, certificações e conexão com seguradoras e empresas de manutenção.</span></li>
                         </ul>
                      </div>
                      <div class="bg-blue-50 p-8 rounded-lg shadow-inner">
-                         <h3 class="text-2xl font-bold mb-6">Nossa Contrapartida</h3>
+                         <h3 class="text-2xl font-bold mb-6">O Que Oferecemos</h3>
                          <ul class="space-y-4 text-gray-700">
-                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Uma startup brasileira de deep tech em IoT residencial.</span></li>
-                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Um produto com alto potencial de patente e internacionalização.</span></li>
-                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Alinhamento a ODS e políticas de eficiência energética.</span></li>
+                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Solução brasileira de deep tech para monitoramento predial com foco em eficiência e segurança.</span></li>
+                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Dados objetivos para reduzir reclamações de pós-obra e melhorar projetos futuros.</span></li>
+                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Diferencial competitivo: "condomínio inteligente de verdade", alinhado a ODS e políticas de eficiência energética.</span></li>
+                            <li class="flex items-start"><span class="text-green-500 font-bold mr-3">✔</span><span>Plataforma escalável com potencial de internacionalização e patentes.</span></li>
                         </ul>
                      </div>
                 </div>
@@ -365,8 +432,8 @@
 
     <footer class="bg-gray-800 text-white py-10">
         <div class="container mx-auto px-6 text-center">
-            <h3 class="text-2xl font-bold">Vamos construir o futuro das residências juntos.</h3>
-            <p class="mt-4">Entre em contato para agendar uma demonstração.</p>
+            <h3 class="text-2xl font-bold">Vamos construir condomínios mais inteligentes juntos.</h3>
+            <p class="mt-4">Entre em contato para conhecer nossa solução e discutir oportunidades de piloto.</p>
             <p class="mt-2 font-semibold">Carlos Eduardo Lanzi | carlos.eduardo@lanzi.tech | +55 14 981677038</p>
         </div>
     </footer>
